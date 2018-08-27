@@ -928,6 +928,7 @@ img {
                     background-size: cover;
                     border: 2px solid transparent;
                     cursor: pointer;
+                    background-repeat: no-repeat;
                     @media #{$breakpoint-lg} {
                         height: 80px;
                     }
@@ -1121,6 +1122,7 @@ img {
         top: 40px;
         left: 40px;
         z-index: 10;
+        background-color: white;
         @media #{$breakpoint-xs} {
             top: 30px;
             left: 30px;
@@ -1151,6 +1153,7 @@ img {
             visibility: visible;
         }
         .hover-content {
+            background-color: transparent;
             p,
             h4 {
                 color: #fff;
